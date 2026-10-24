@@ -1,0 +1,29 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+config.php
+config.local.php
+secrets.json
+*.pem
+*.key
+
+# Local databases and backups
+*.sqlite
+*.sqlite3
+*.db
+*.bak
+*.backup
+*.sql
+
+# Dependencies and generated files
+/vendor/
+/node_modules/
+/cache/
+/tmp/
+*.log
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
